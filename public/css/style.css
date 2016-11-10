@@ -80,3 +80,11 @@ ul li {
   background-color: #FCFFCE;
   display: flex;
 }
+
+.wheel{
+  width: 70%;
+  flex-grow: 2;
+}
+article{
+  flex-shrink: 2;
+}
