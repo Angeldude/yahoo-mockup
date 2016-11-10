@@ -1,3 +1,8 @@
+/*
+
+    INIT
+
+*/
 @font-face {
   font-family: 'yahoo';
   src: url('../fonts/Yahoo.ttf') format("truetype");
@@ -13,11 +18,45 @@ html{
   font-weight: lighter;
 }
 
+body{
+  margin: 0;
+  font-size: 100%;
+  min-height: 100vh;
+}
+
+/*
+
+      HEADER
+
+*/
+
 .logo{
   font-family: 'yahoo';
+  font-size: small;
 }
 
 .story{
   font-style: italic;
   font-weight: normal;
+}
+
+.bar{
+  background-color: #7B0089;
+  color: white;
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+}
+
+/*
+
+      MAIN
+
+*/
+
+.article{
+  background-color: #FCFFCE;
 }
