@@ -5,7 +5,7 @@
 */
 @font-face {
   font-family: 'yahoo';
-  src: url('../fonts/Yahoo.ttf') format("truetype");
+  src: url('fonts/Yahoo.ttf') format("truetype");
 }
 
 html{
@@ -49,6 +49,10 @@ body{
 ul li {
   list-style: none;
   display: inline;
+}
+
+.mid{
+  display: flex;
 }
 
 /*
