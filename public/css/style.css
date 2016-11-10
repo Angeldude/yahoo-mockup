@@ -55,8 +55,24 @@ ul li {
 
       MAIN
 
+
+*/
+.news{
+  display: flex;
+}
+/*
+
+      MAIN-BOTTOM
+
 */
 
+.circle{
+  border: 0.2rem solid #9815A6;
+  width:10%;
+  border-radius: 50%;
+  text-align: center;
+}
 .article{
   background-color: #FCFFCE;
+  display: flex;
 }
