@@ -70,11 +70,25 @@ ul li {
 
 */
 
+
+.left{
+  width: 50%;
+  display:flex;
+}
+
 .circle{
   border: 0.2rem solid #9815A6;
-  width:10%;
+  width:50%;
+  height: 40%;
+  position: relative;
+  top: 5em;
   border-radius: 50%;
   text-align: center;
+}
+
+.circle > p {
+  position: relative;
+  top: 1.5em;
 }
 .article{
   background-color: #FCFFCE;
